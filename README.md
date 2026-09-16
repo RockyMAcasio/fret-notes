@@ -2,7 +2,7 @@
 
 # Fret Notes
 
-A small guitar practice journal built with TypeScript, HTML, and CSS. Choose a practice category (scales, songs, technique / accuracy, fretboard / theory knowledge, or miscellaneous), then log a name or topic, minutes practiced, a date, progress, and notes. Search history by name, category, or notes and combine the search with a category filter. Every log includes an editable category. The journal calculates totals, visualizes the past seven days, and groups sessions into a song collection.
+A small guitar practice journal built with TypeScript, HTML, and CSS. Choose a practice category (scales, songs, technique / accuracy, fretboard / theory knowledge, or miscellaneous), then log a name or topic, minutes practiced, a date, progress, and notes. Search history by name, category, or notes, and combine the search with a category filter. Every log includes an editable category. The journal calculates totals, visualizes the past seven days, and groups sessions into a song collection.
 
 ![Fret Notes guitar practice tracker](fret-notes.png)
 
@@ -13,9 +13,6 @@ A small guitar practice journal built with TypeScript, HTML, and CSS. Choose a p
 - `styles.css`: responsive layout and visual styling.
 - `app.js`: generated browser JavaScript.
 
-## Run locally
-
-Run `python3 -m http.server 8000` and open `http://localhost:8000`.
 
 ## Rebuild after editing TypeScript
 
@@ -44,7 +41,7 @@ Data is saved only in the current browser and origin. Clearing browser data remo
 
 ## Publish on GitHub Pages
 
-1. Create a public repository named `fret-notes` on GitHub.
+1. Created a public repository named `fret-notes` on GitHub.
 2. Upload the contents of this folder, including `src/`, so `index.html` is at the top level of the repository. Upload the extracted files, not the ZIP itself.
 3. Commit the files to `main`.
 4. Open Settings > Pages. Set Source to Deploy from a branch, select `main` and `/(root)`, then Save.
@@ -54,6 +51,6 @@ The JavaScript is already built, so Node.js is not needed to upload or publish t
 
 The published app code is public. Actual practice records and goals stay in each visitor's browser; none are bundled in this download. Browser storage is tied to the hosting origin, so records on the ChatGPT Site do not automatically transfer to GitHub Pages.
 
-## Development
+## Development and Reason Behind It
 
-Rocky Acasio proposed and refined the practice categories, progress states, search, goals, streaks, and weekly recap. Implementation was created with ChatGPT assistance.
+Before creating this website, I used to track my progress using my notes app on my iPhone, or tracking my progress in my head. I found this way to be redundant, lazy, and not efficient for knowing what exactly I needed to work on. Therefore, I decided to create an active tracker website that can help me progress in a smarter, more efficient way than having to take notes on my iPhone, and I can see my individual progress on songs, theory, etc., for whatever I practiced. I proposed and refined the practice categories, progress states, search, goals, streaks, and weekly recap. Implementation was created using assistance from ChatGPT-6.
