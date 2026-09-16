@@ -31,6 +31,8 @@ Practice names are grouped by category without case sensitivity, so identically 
 
 Data is saved only in the current browser and origin. Clearing browser data removes it; it does not sync between devices. Changing the hosting address creates a separate storage space. Fonts are optional Google Fonts with local fallbacks. The optional WebMCP integration exposes the same validated session-saving action in supporting browsers.
 
+![Goals and weekly recap screenshot](fret-notes-weekly.png)
+
 ## Goals, streaks, and weekly recaps
 
 - Weekly goals can target total minutes, distinct practice days, or both. Goals repeat in Monday–Sunday calendar weeks, with changes effective from the current week onward. Older weeks keep their earlier target. Goals are stored separately from sessions. Clearing goals affects this week and future weeks.
