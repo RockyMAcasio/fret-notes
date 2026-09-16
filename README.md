@@ -1,3 +1,5 @@
+![Fret Notes guitar practice tracker](fret-notes.png)
+
 # Fret Notes
 
 A small guitar practice journal built with TypeScript, HTML, and CSS. Choose a practice category (scales, songs, technique / accuracy, fretboard / theory knowledge, or miscellaneous), then log a name or topic, minutes practiced, a date, progress, and notes. Search history by name, category, or notes and combine the search with a category filter. Every log includes an editable category. The journal calculates totals, visualizes the past seven days, and groups sessions into a song collection.
